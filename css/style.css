@@ -1,0 +1,317 @@
+ 
+html {
+    font-size: 22px;
+    background-color: #ffffff;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* navigation strats here */
+.navbar-default {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+nav {
+    padding-left: 0px;
+    margin-top: 10px;
+    text-shadow:1px 1px 1  px black;
+}
+
+.navbar-brand {
+    color: whitesmoke !important;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.navbar-nav a {
+    font-size: 1rem;
+    color: whitesmoke !important;
+}
+
+.navbar-nav a:hover
+{
+    color: #3496d8 !important;
+}
+
+.dropdown-menu              
+{
+    background-color: #eea57e;
+}
+/* navigation ends here */
+
+
+/* header-wrapper starts here */
+.header-wrapper {
+    background-image: url(../img/the-town-bg-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height:140vh;
+    }
+
+ /* banner starts here */
+.banner {
+    width: 50vw;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    color: #ffffff;
+    padding: 30px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.banner h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    text-shadow: 2px 3px 6px black;
+}
+
+.banner h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.banner span
+{
+    width: 80px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 80px;
+    border-radius: 100%;
+    color: #eea57e;
+    margin: 70px 0px;
+    text-shadow: none;
+}
+.banner span:hover
+{
+    background-color:#3496d8;
+    color: #fff;
+}
+/* banner and header ends here */
+
+
+
+/* introduction blog starts here */
+.introduction
+{
+    padding: 50px 20px;
+}
+.introduction img
+{
+    margin-top: 20px;
+    box-shadow: 2px 3px 3px black ;
+    width: 100%;
+}
+.info-content
+{
+    padding:0px 70px;
+}
+.info-content h1
+{
+    font-size: 2.3rem;
+    color: #3496d8;
+}
+.info-content p
+{
+    color: grey ;
+    font-size: 1rem;
+    line-height: 30px;
+}
+.mt
+{
+    margin-top: 30px;
+}
+.info-content button
+{
+    margin: 20px 0px;
+    width: 160px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: #3496d8;
+    font-size: 1rem;
+}
+/* introduction blog ends here */
+
+
+
+/* three sec starts here    */
+.three-section
+{
+     padding: 80px;
+}
+.blogs
+{
+    padding: 40px;
+    text-align: center;
+}
+.three-section .blogs
+{
+    padding: 40px;
+    text-align: center;
+}
+.blogs span
+{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #3496d8; 
+}
+.blogs h3
+{
+    padding: 30px 0px;
+    font-size: 1.2rem;
+    color: #3496d8;
+}
+.blogs p
+{
+    text-align: left;
+    font-size: 1rem;
+    color: grey;
+}
+/* three sec ends here */
+
+/* our work starts here */
+.our-work
+{
+    text-align: center;
+    padding: 80px 40px;
+}
+.our-work h1
+{
+    font-size: 3rem;
+    color: #3496d8;
+}
+.our-work p
+{   
+    margin: 0 auto;
+    width:70%;
+    padding: 20px;
+    font-size: .8rem;
+    color: gray;
+}
+/* our-work ends here*/
+
+
+/* galary starts heer */
+.galary
+{ 
+    padding:10px 20px 50px 20px;
+}
+.images img
+{
+    width: 150px;
+    margin-bottom: 30px;
+}
+/* galary ends here */
+
+
+/* contact form starts here */
+.contact    
+{
+    padding: 40px 40px 60px 40px;
+    background-image: url(../img/the-town-bg-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height:120vh;
+    text-align: center;
+    color: #fff;
+}
+.contact p{
+    text-align: left;
+    font-size:1rem ;
+}
+.contact h1
+{ 
+    text-align: left;
+    font-size: 3rem;
+}
+.contact-forms
+{
+    padding: 40px 10px; 
+}
+.contact-forms h2
+{
+    font-size: 1.8rem;
+}
+.contact-forms a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.footer p
+{
+    margin-top: 40px;
+    text-align: center;
+    font-size:  1rem;
+}
+/* contact forms ends here */
+
+
+/* meadia queries starts here */
+@media only screen and (max-width: 500px)
+{
+    html
+    {
+        font-size: 10px;
+    }
+    .header-wrapper
+    {
+        height: 170vh;
+    }
+    .contact
+    {
+        height: 200vh;
+    }
+}
+@media only screen and (max-width: 770px)
+{
+    html
+    {
+        font-size: 14px;
+    }
+    .images
+    {
+        margin: 0 auto;
+        width: 60%;
+    }
+    .images img{
+        margin: 0 auto;
+        width: 70%;
+        margin-top: 20px;
+    }
+    .contact
+    {
+        height: 130vh;
+    }
+    .contact-forms  
+    {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 1000px)
+{
+    html
+    {
+        font-size: 16px;
+    }
+    .images
+    {
+        margin: 0 auto;
+    }
+}   
+@media only screen and (max-width: 1180px)
+{
+    .images
+    {
+        margin: 0 auto;
+    }
+    .images img
+    {
+        margin-left: 50px;
+    }
+ 
+}
+ 
